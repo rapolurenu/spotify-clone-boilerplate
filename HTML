@@ -1,245 +1,227 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spotify Clone</title>
+    <title>Spotify</title>
     <link rel="stylesheet" href="styles.css">
-    <img src="" alt="Image Description">
 </head>
-
 <body>
-
-    <div class="sidebar">
-        <div class="logo">
-            <a href="">
-                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Spotify%20logo.png?raw=true" alt="Logo">
-            </a>
+    <div class = "website">
+        <div class = "sideBar">
+            <div class = "spotifyLogo">
+                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Spotify%20logo.png?raw=true" alt="Spotify Logo" id="spotify">
+            </div>
+            <div class = "homeSelect">
+                <div class="home">
+                    <div class = "home-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Home.png?raw=true" alt="" id="home-select">
+                    </div>
+                        <div class="home-text">
+                            <p>Home</p>
+                        </div>
+                </div>
+                <div class="search">
+                    <div class = "search-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Search.png?raw=true" alt="" id="home-select">
+                    </div>
+                        <div class="home-text">
+                            <p>Search</p>
+                        </div>
+                </div>
+                <div class="library">
+                    <div class = "library-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Your%20library.png?raw=true" alt="" id="home-select">
+                    </div>
+                        <div class="home-text">
+                            <p>Your Library</p>
+                        </div>
+                </div>
+            </div>
+            <div class="playlistSelect">
+                <div class="playlist">
+                    <div class = "playlist-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Create.png?raw=true" alt="" id="playlist-select">
+                    </div>
+                        <div class="playlist-text">
+                            <p>Create Playlist</p>
+                        </div>
+                </div>
+                <div class="liked">
+                    <div class = "liked-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Liked.png?raw=trueg" alt="" id="playlist-select">
+                    </div>
+                        <div class="liked-text">
+                            <p>Liked Songs</p>
+                        </div>
+                </div>
+                <div class="episodes">
+                    <div class = "episodes-logo">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/your%20episodes.png?raw=true" alt="" id="playlist-select">
+                    </div>
+                        <div class="episodes-text">
+                            <p>Your Episodes</p>
+                        </div>
+                </div>
+            </div>
+            <div class="favSelect">
+                <div class="favList">
+                    <ul class = "fav-list">
+                        <li>FAV</li>
+                        <li>Daily Mix 1</li>
+                        <li>Discover Weekly</li>
+                        <li>Malyalam</li>
+                        <li>Dance/Electronic Mix</li>
+                        <li>EDM/Popular</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="installApp">
+                <div class="install-icon">
+                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/grommet-icons_install-option.png?raw=true" alt="" id="installicon">
+                </div>
+                    <div class="install-text">
+                        <p>Install App</p>
+                    </div>
+            </div>
         </div>
+        <div class="main-screen">
+            <div class="mainScreen">
+                <div class="main-topBar">
+                    <div class = "arrows">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/top%20arrow%20navigation.png?raw=true" alt="" id="arrowsimg">
+                    </div>
+                    <div class ="aboutUser">
+                        <img src="https://github.com/Saranya2024/spotify-clone-boilerplate/blob/main/assets/User.png?raw=true" alt="" id="userimg">
+                    </div>
+                </div>
+                <div class="middle-section">
+                    <div class = "wishSec">
+                        <h1>Good Morning</h1>
+                    </div>
+                    <div class = "songDivs">
+                        <div class="box-Liked">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Liked.png?raw=true" alt="">
+                                <span id="text-Liked">Liked Songs</span>
+                        </div>
+                        <div class="box-Neffex">
+                            <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image4.png?raw=true" alt="">
+                            <span id="text-Neffex">Neffex Playlist</span>
+                        </div>
+                        <div class="box-N">
+                            <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image3.png?raw=true" alt="">
+                            <span id="text-N">K/DA</span>
+                        </div>
+                        <div class="box-Liked2">
+                            <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image1.png?raw=true" alt="">
+                            <span id="text-Liked2">Liked Songs</span>
+                        </div>
+                    </div>
+                    <div class="box-Dance">
+                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image2.png?raw=true" alt="">
+                        <span id="text-Dance">Liked Songs</span>
+                    </div>
+                    <div class = "shows-text">
+                        Shows you might like
+                    </div>
+                    <div class = "showsDiv">
+                        <div class = "show-weekly">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image9.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>Weekly Motivatio...</span>
+                                <br>
+                                <span2>Ben Ipa Scott</span2>
+                            </div>
+                        </div>
 
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Home.png?raw=true"  width="15" height="15">
-                        <span>Home</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Search.png?raw=true"  width="15" height="15">
-                        <span>Search</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Your%20library.png?raw=true"width="15" height="15">
-                        <span>Your Library</span>
-                    </a>
-                </li>
-            </ul>
+                        <div class = "show-meditation">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image8.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>MEDITATION SELF</span>
+                                <br>
+                                <span2>Ibp Hussian Aleen</span2>
+                            </div>
+                        </div>
+                        <div class = "show-words">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image7.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>Words beyond act..</span>
+                                <br>
+                                <span2>Samuel Scott</span2>
+                            </div>
+                        </div>
+                        <div class = "show-alexa">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image6.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>The Alexa Show</span>
+                                <br>
+                                <span2>Adriana Tom</span2>
+                            </div>
+                        </div>
+                        <div class = "show-stories">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image5.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>The Stories of Ma...</span>
+                                <br>
+                                <span2>Lexus</span2>
+                            </div>
+                        </div>
+                        <div class = "show-daily">
+                            <div class = "shows">
+                                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image10.png?raw=true" alt="">
+                            </div>
+                            <div class = "text">
+                                <span>Motivation Daily b...</span>
+                                <br>
+                                <span2>Georgina Martha</span2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-        <div class="navigation">
-            <ul>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Create.png?raw=true"width="15" height="15">
-                        <span>Create Playlist</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Liked.png?raw=true"width="15" height="15">
-                        <span>Liked Songs</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/your%20episodes.png?raw=true"width="15" height="15">
-                        <span>Your Episodes</span>
-                    </a>
-                </li>
-
-            </ul>
-           
+    </div>
+    <div class="bottom-footer">
+        <div class="footer-bottom">
+            <div class = "divSong">
+            <div class="image-song">
+                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image11.png?raw=true" alt="">
+            </div>
+            <div class="song-name">
+                <span>Dreaming On</span>
+                <br>
+                <span>NEFFEX</span>
+            </div>
+            </div>
+            <div class = "liked-img">
+                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/bx_bxs-heart.png?raw=true" alt="">
+            </div>
+            <div class="players-img">
+                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Music%20Player%20Options.png?raw=true" alt="" height="81x" width="550px">
+            </div>
+            <div class="controls-img">
+                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Right%20options.png?raw=true" alt=""  width="300px">
+            </div>
         </div>
-        <div class="navigation">
-          <ul>
-              <li>
-                  <a><span>FAV</span></a>
-              </li>
-              <li>
-                <a><span>Daily Mix1</span></a>
-              </li>
-              <li>
-                <a><span>DiscoverWeekly</span></a>
-              </li>
-              <li>
-                <a><span>Malayalam</span></a>
-              </li>
-              <li>
-                <a><span>Dance/ElectronicMix</span></a>
-              </li>
-              <li>
-                <a><span>EDM/Popular</span></a>
-              </li>
-          </ul>
-      </div>
-      
+    </div>
+    <div class = "bottom-green-pro">
+    <div class = "bottom-green">
+        <img src="/assets/volume.png" alt="">
+        <img src="https://github.com/aayushwrld/spotify-clone-boilerplate/blob/main/assets/arrowup.png?raw=true" alt=""  id="up-arrow">
+        <span>
+            Listening on ASUS-ROG-G531GT
+        </span>
     </div>
     </div>
-
-    <div class="main-container">
-        <div class="topbar">
-            <div class="prev-next-buttons">
-                
-                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/top%20arrow%20navigation.png?raw=true"width="100" height="100">
-                
-            </div>
-
-            <div class="navbar">
-            
-                <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/User.png?raw=true" height="50">
-            </div>
-        </div>
-
-        <div class="spotify-playlists">
-            <h2>Good morning</h2>
-
-            <div class="list">
-                <div class="item">
-                    
-                        <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/Liked.png?raw=true"> 
-                       
- 
-                    <div class= "play" >
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Liked Songs</h4>
-                  
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image4.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Neffex Playlist</h4>
-                  
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image3.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>K/DA</h4>
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image1.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Liked Songs</h4>
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image2.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Dance/Electronic Mix</h4>
-                    
-                </div>
-
-              
-            </div>
-        </div>
-
-        <div class="spotify-playlists">
-            <h2>Shows you might like</h2>
-            <div class="list">
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image9.png?raw=true">
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Weekly Motivation</h4>
-                    <p><b>Ben Ina Scott </b></p>
-                    
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image8.png?raw=true" >
-                   
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>MEDITATION SELF</h4>
-                    <p><b>Ibn Hussain Aleen</b></p>
-                    
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image7.png?raw=true" />
-                    <div class="play">
-                   
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Words beyond act..</h4>
-                    <p><b>Samuel Scott</b></p>
-                    
-                </div>
-
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image6.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>The Alexa Show/h4>
-                    <p><b>Adriana Tom</b></p>
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image5.png?raw=true">
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>The Stories of Ma...</h4>
-                    <p><b>Levis</b></p>
-                    
-                </div>
-
-                <div class="item">
-                    <img src="https://github.com/Kalvium-Program/spotify-clone-boilerplate/blob/main/assets/image10.png?raw=true" />
-                    <div class="play">
-                        <span class="fa fa-play"></span>
-                    </div>
-                    <h4>Motivation Daily b...</h4>
-                    <p><b>Georgine Marthe</b></p>
-                    
-                </div>
-
-                
-            </div>
-        </div>
-
-        
-
-    </div>
-
-   
-
-    <script src="https://kit.fontawesome.com/ef9a692198.js" crossorigin="anonymous"></script>
-</body>
-
+</body> 
 </html>
